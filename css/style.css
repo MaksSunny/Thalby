@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header .logo{
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 16px;
+}
+header{
+    padding: 15px 0;
+}
+.conteiner{
+    margin: auto;
+    max-width: 1064px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin-right: 28px;
+}
+header nav ul li:last-of-type{
+    margin-right: 0;
+}
+.best_sellers{
+    text-align: center;
+}
