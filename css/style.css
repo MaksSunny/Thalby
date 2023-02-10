@@ -8,26 +8,90 @@ header .logo{
     top: 16px;
 }
 header{
-    padding: 15px 0;
+    padding: 7px 0;
 }
-.conteiner{
+.container{
     margin: auto;
     max-width: 1064px;
 }
 header .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 header ul{
     list-style: none;
     display: flex;
+    align-items: center;
 }
 header nav ul li{
     margin-right: 28px;
+
 }
 header nav ul li:last-of-type{
     margin-right: 0;
 }
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+}
+header ul:last-of-type li a img{
+    margin-left: 30px;
+}
+.main_banner{
+    background: #F0EFEB;
+}
+.main_banner .container{
+    display: flex;
+    align-items: center;
+}
+
+.main_banner_content h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 42px;
+    width: 534px;
+}
+.main_banner_content p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.main_banner_content a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 9px 23px;
+}
+.main_banner_picture{
+    max-width: 100%;
+    display: block;
+    position: relative;
+    left: 50px;
+}
+
+
+
 .best_sellers{
     text-align: center;
 }
