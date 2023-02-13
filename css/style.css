@@ -41,7 +41,7 @@ header nav ul li a{
     color: #1C1B1B;
 }
 header ul:last-of-type li a img{
-    margin-left: 30px;
+    margin-left: 15px;
 }
 .main_banner{
     background: #F0EFEB;
@@ -137,6 +137,10 @@ header ul:last-of-type li a img{
 .best_sellers_cards article{
     max-width: 314px;
 }
+.best_sellers_cards article{
+    max-width: 314px;
+    display: inline-block;
+}
 .best_sellers_cards article img{
     margin-bottom: 20px;
 }
@@ -174,6 +178,18 @@ header ul:last-of-type li a img{
     text-decoration-line: underline;
     color: #000000;
 }
+.owl-dots .owl-dot{
+    position: absolute;
+    left: 540px;
+    top: 600px;
+}
+.owl-dots .owl-dot:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f111";
+    color: purple;
+    font-size: 15px;
+}
 .people_and_society{
     background: rgba(204, 204, 204, 0.3);
 }
@@ -187,6 +203,14 @@ header ul:last-of-type li a img{
 .content_offer{
     display: flex;
 }
+.content_second_offer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
 .offer_card{
     margin-right: 50px;
     max-width: 385px;
