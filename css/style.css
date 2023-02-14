@@ -84,11 +84,12 @@ header ul:last-of-type li a img{
     padding: 9px 23px;
 }
 .main_banner_picture{
-    max-width: 100%;
-    display: block;
     position: relative;
     left: 50px;
+    display: block;
+    max-width: 100%;
 }
+
 .best_sellers{
     text-align: center;
     padding-bottom: 248px;
@@ -204,46 +205,23 @@ header ul:last-of-type li a img{
 }
 
 
+/*three sections*/
 
-
-
-
-.people_and_society{
-    background: rgba(204, 204, 204, 0.3);
-}
-.culture_and_heritage{
-    background: rgba(204, 204, 204, 0.6);
-}
-.people_and_society, .culture_and_heritage{
-    padding-top: 76px;
-    padding-bottom: 51px;
-}
 .content_offer{
     display: flex;
 }
-.content_second_offer{
-    display: flex;
-    justify-content: flex-end;
+.content_offer{
+justify-content: space-around;
 }
-
-
-
-
 .offer_card{
-    margin-right: 50px;
     max-width: 385px;
 }
-.offer_card{
+.offer_card img{
     display: block;
     width: 100%;
-
+    height: auto;
 }
-.content_offer article{
-    position: relative;
-    top: 70px;
-    max-width: 498px;
-}
-.content_offer article h3{
+.people_and_society article h3{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -252,7 +230,7 @@ header ul:last-of-type li a img{
     color: #000000;
     margin-bottom: 31px;
 }
-.content_offer article h5{
+.people_and_society article h5{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -261,7 +239,7 @@ header ul:last-of-type li a img{
     color: #000000;
     margin-bottom: 40px;
 }
-.content_offer article p{
+.people_and_society article p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -270,3 +248,65 @@ header ul:last-of-type li a img{
     text-decoration-line: underline;
     color: #000000;
 }
+
+
+
+
+/*.people_and_society{*/
+/*    background: rgba(204, 204, 204, 0.3);*/
+/*}*/
+/*.culture_and_heritage{*/
+/*    background: rgba(204, 204, 204, 0.6);*/
+/*}*/
+/*.people_and_society, .culture_and_heritage{*/
+/*    padding-top: 76px;*/
+/*    padding-bottom: 51px;*/
+/*}*/
+/*.content_offer{*/
+/*    display: flex;*/
+/*}*/
+/*.content_second_offer{*/
+/*    display: flex;*/
+/*}*/
+
+/*.offer_card{*/
+/*    margin-right: 50px;*/
+/*    max-width: 385px;*/
+/*}*/
+/*.offer_card img{*/
+/*    display: block;*/
+/*    width: 100%;*/
+
+/*}*/
+/*.content_offer article{*/
+/*    position: relative;*/
+/*    top: 70px;*/
+/*    max-width: 498px;*/
+/*}*/
+/*.content_offer article h3{*/
+/*    font-family: 'Roboto';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 36px;*/
+/*    line-height: 42px;*/
+/*    color: #000000;*/
+/*    margin-bottom: 31px;*/
+/*}*/
+/*.content_offer article h5{*/
+/*    font-family: 'Roboto';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 36px;*/
+/*    line-height: 42px;*/
+/*    color: #000000;*/
+/*    margin-bottom: 40px;*/
+/*}*/
+/*.content_offer article p{*/
+/*    font-family: 'Roboto';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 17px;*/
+/*    line-height: 20px;*/
+/*    text-decoration-line: underline;*/
+/*    color: #000000;*/
+/*}*/
