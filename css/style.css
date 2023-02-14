@@ -178,18 +178,36 @@ header ul:last-of-type li a img{
     text-decoration-line: underline;
     color: #000000;
 }
-.owl-dots .owl-dot{
-    position: absolute;
-    left: 540px;
-    top: 600px;
+/*.owl-dots .owl-dot{*/
+/*    position: absolute;*/
+/*    left: 540px;*/
+/*    top: 600px;*/
+/*}*/
+/*.owl-dots .owl-dot:before{*/
+/*    font-weight: 900;*/
+/*    font-family: "Font Awesome 6 Free";*/
+/*    content: "\f111";*/
+/*    color: purple;*/
+/*    font-size: 15px;*/
+/*}*/
+
+.owl-dots .owl-dot span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: purple;
+    border-radius: 50%;
+    margin-left: 20px;
 }
-.owl-dots .owl-dot:before{
-    font-weight: 900;
-    font-family: "Font Awesome 6 Free";
-    content: "\f111";
-    color: purple;
-    font-size: 15px;
+.owl-dots .owl-dot.active span{
+    background: deeppink;
 }
+
+
+
+
+
+
 .people_and_society{
     background: rgba(204, 204, 204, 0.3);
 }
