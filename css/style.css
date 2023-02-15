@@ -92,7 +92,7 @@ header ul:last-of-type li a img{
 
 .best_sellers{
     text-align: center;
-    padding-bottom: 248px;
+    padding-bottom: 100px;
     padding-top: 60px;
 }
 .best_sellers h2{
@@ -207,19 +207,23 @@ header ul:last-of-type li a img{
 
 /*three sections*/
 
+
 .content_offer{
     display: flex;
-}
-.content_offer{
-justify-content: space-around;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 51px;
+    padding-top: 76px;
+    background: rgba(204, 204, 204, 0.3);
 }
 .offer_card{
     max-width: 385px;
+    width: 100%;
+    margin-right: 50px;
 }
 .offer_card img{
     display: block;
     width: 100%;
-    height: auto;
 }
 .people_and_society article h3{
     font-family: 'Roboto';
@@ -247,6 +251,20 @@ justify-content: space-around;
     line-height: 20px;
     text-decoration-line: underline;
     color: #000000;
+}
+.people_and_society article{
+    max-width: 530px;
+}
+.people_and_society .content_offer:nth-child(2) article{
+    text-align: right;
+    margin-right: 50px;
+}
+.people_and_society .content_offer:nth-child(2){
+    justify-content: right;
+    background: rgba(204, 204, 204, 0.6);
+}
+.people_and_society :nth-child(2) .offer_card{
+    margin-right: 0;
 }
 
 
