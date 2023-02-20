@@ -8,7 +8,19 @@
     }
 }
 
+@media only screen and (max-width: 855px){
+    .content_offer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content_offer img{
+        margin: 15px 0;
+    }
+    .offer_card{
+        margin-right: 0;
+    }
 
+}
 
 
 @media only screen and (max-width: 809px){
@@ -132,5 +144,20 @@
 @media only screen and (max-width: 570px){
     .logo{
         display: none;
+    }
+}
+
+@media only screen and (max-width: 427px){
+    footer .right_list ul:first-of-type{
+        margin-right: 20px;
+    }
+    footer .right_list ul:last-of-type{
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 332px){
+    footer .container{
+        flex-direction: column;
+        justify-content: center;
     }
 }

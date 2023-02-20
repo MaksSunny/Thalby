@@ -60,7 +60,7 @@ header ul:last-of-type li a img{
     line-height: 70px;
     color: #000000;
     margin-bottom: 42px;
-    width: 534px;
+    max-width: 534px;
 }
 .main_banner_content p{
     font-family: 'Roboto';
@@ -87,10 +87,11 @@ header ul:last-of-type li a img{
 .main_banner_picture{
     position: relative;
     left: 50px;
-    display: block;
-    max-width: 100%;
 }
-
+.main_banner_picture img{
+    max-width: 100%;
+    display: block;
+}
 .best_sellers{
     text-align: center;
     padding-bottom: 100px;
@@ -180,18 +181,7 @@ header ul:last-of-type li a img{
     text-decoration-line: underline;
     color: #000000;
 }
-/*.owl-dots .owl-dot{*/
-/*    position: absolute;*/
-/*    left: 540px;*/
-/*    top: 600px;*/
-/*}*/
-/*.owl-dots .owl-dot:before{*/
-/*    font-weight: 900;*/
-/*    font-family: "Font Awesome 6 Free";*/
-/*    content: "\f111";*/
-/*    color: purple;*/
-/*    font-size: 15px;*/
-/*}*/
+
 
 .owl-dots .owl-dot span{
     display: inline-block;
