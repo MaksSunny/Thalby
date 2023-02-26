@@ -1,0 +1,678 @@
+$main_font: 'Roboto';
+$black_color: black;
+$gray_background: #F0EFEB;
+
+
+header{
+  padding: 7px 0;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 10px;
+  }
+  nav{
+    ul{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      }
+      li{
+        margin-right: 28px;
+        &:last-of-type{
+          margin-right: 0;
+        }
+        a{
+          text-decoration: none;
+          font-family: $main_font;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 26px;
+          color: #1C1B1B;
+        }
+      }
+    }
+  ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    li{
+      a{
+        img{
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  }
+.container{
+  margin: auto;
+  max-width: 1064px;
+  align-items: center;
+}
+
+//main_banner
+
+.main_banner{
+  background: #F0EFEB;
+  .container{
+    display: flex;
+    align-items: center;
+    .main_banner_content{
+      h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 70px;
+        color: #000000;
+        margin-bottom: 42px;
+        max-width: 534px;
+      }
+      p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin-bottom: 26px;
+      }
+      a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 100px;
+        padding: 9px 23px;
+      }
+    }
+    .main_banner_picture{
+      position: relative;
+      left: 150px;
+      max-width: 100%;
+      max-height: 521px;
+      img{
+        display: block;
+
+      }
+    }
+  }
+}
+
+//best_sellers
+
+.best_sellers{
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 60px;
+  .container{
+    max-width: 692px;
+    margin: auto;
+    h2{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      color: #000000;
+      margin-bottom: 27px;
+    }
+    p{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      color: #000000;
+      margin-bottom: 47px;
+    }
+    p{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      color: #000000;
+      margin-bottom: 88px;
+    }
+    h2{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      color: #000000;
+      margin-bottom: 27px;
+    }
+  }
+  .best_sellers_cards{
+    display: flex;
+    justify-content: space-between;
+  }
+  .container{
+    max-width: 1064px;
+    margin: auto;
+    article{
+      max-width: 314px;
+      display: inline-block;
+      img{
+        max-width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+      .prise{
+        max-width: 155px;
+        margin: auto;
+        h4{
+          margin-bottom: 17px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 20px;
+          text-align: center;
+          color: #000000;
+        }
+        h5{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 20px;
+          text-align: center;
+          color: #000000;
+          margin-bottom: 10px;
+        }
+        a{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 20px;
+          text-align: center;
+          text-decoration-line: underline;
+          color: #000000;
+        }
+      }
+    }
+  }
+  .owl-dots{
+    display: flex;
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    justify-content: center;
+  }
+  .owl-carousel{
+    .owl-dots .owl-dot span{
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: purple;
+      border-radius: 50%;
+      margin-left: 20px;
+      .owl-dots .owl-dot.active span{
+        background: deeppink;
+      }
+    }
+    .owl-dots .owl-dot.active span{
+      background: deeppink;
+    }
+
+
+  }
+}
+
+//three section
+
+.people_and_society{
+  .offer{
+    background-color: rgba(204, 204, 204, 0.3);
+    .content_offer{
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      padding-bottom: 51px;
+      padding-top: 76px;
+      article{
+        max-width: 530px;
+        h3{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 42px;
+          color: #000000;
+          margin-bottom: 31px;
+        }
+        h5{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 42px;
+          color: #000000;
+          margin-bottom: 40px;
+        }
+        p{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 20px;
+          text-decoration-line: underline;
+          color: #000000;
+        }
+      }
+      .offer_card{
+        max-width: 385px;
+        width: 100%;
+        margin-right: 50px;
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .second_offer{
+    background-color: rgba(204, 204, 204, 0.6);
+    .content_offer{
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      padding-bottom: 51px;
+      padding-top: 76px;
+      margin-right: 50px;
+      article{
+        max-width: 530px;
+        text-align: right;
+        margin-right: 50px;
+        h3{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 42px;
+          color: #000000;
+          margin-bottom: 31px;
+        }
+        h5{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 42px;
+          color: #000000;
+          margin-bottom: 40px;
+        }
+        p{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 20px;
+          text-decoration-line: underline;
+          color: #000000;
+        }
+      }
+      .offer_card{
+        max-width: 385px;
+        width: 100%;
+        margin-right: 0;
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+    .container{
+      max-width: 1064px;
+      margin: auto;
+    }
+  }
+  .third_offer{
+    background-color: rgba(204, 204, 204, 0.3);
+    .content_offer{
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      padding-bottom: 51px;
+      padding-top: 76px;
+      article{
+        max-width: 530px;
+        h3{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 42px;
+          color: #000000;
+          margin-bottom: 31px;
+        }
+        h5{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 42px;
+          color: #000000;
+          margin-bottom: 40px;
+        }
+        p{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 20px;
+          text-decoration-line: underline;
+          color: #000000;
+        }
+      }
+      .offer_card{
+        max-width: 385px;
+        width: 100%;
+        margin-right: 50px;
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+//Guide
+.guide{
+  padding-top: 190px;
+  padding-bottom: 110px;
+  .container{
+    max-width: 1064px;
+    margin: auto;
+    justify-content: center;
+    h5{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      color: #000000;
+    }
+    .mugs{
+      display: flex;
+      flex-wrap: wrap;
+      article{
+        margin-top: 69px;
+        width: 338px;
+        &:nth-child(2) div{
+          background: #33D3BC
+        }
+        &:nth-child(3) div{
+          background: #18A5C6
+        }
+        &:nth-child(4) div{
+          background: #D38F62
+        }
+        &:nth-child(5) div{
+          background: #F94C43
+        }
+        &:last-of-type div{
+          background: #D399FF
+        }
+        div{
+          width: 70px;
+          height: 70px;
+          background: #21F7EC;
+          border-radius: 35px;
+          margin: auto;
+          margin-bottom: 26px;
+        }
+        h6{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 35px;
+          text-align: center;
+          color: #000000;
+        }
+      }
+    }
+  }
+}
+
+//interviews
+
+.interviews{
+  background: linear-gradient(#FFFFFF 50%, #F0F0F0 50%);
+  padding-bottom: 52px;
+  .container{
+    h4{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 102px;
+    }
+    .guides{
+      display: flex;
+      justify-content: space-between;
+      article{
+        max-width: 288px;
+        .photo_guides{
+          margin-bottom: 35px;
+          width: 100%;
+          img{
+            display: block;
+          }
+        }
+        div{
+          margin: auto;
+          justify-content: center;
+          h5{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 0.6px;
+            color: #000000;
+            margin-bottom: 34px;
+          }
+          h6{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            color: #000000;
+            margin-bottom: 44px;
+          }
+          p{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            text-decoration-line: underline;
+
+            a{
+              text-decoration: none;
+              color: #000000;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+//form
+.keep_in_touch{
+  padding-bottom: 88px;
+  padding-top: 79px;
+  .container{
+    max-width: 570px;
+    margin: auto;
+    justify-content: center;
+    h4{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 9px;
+    }
+    h5{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 26px;
+    }
+    div{
+      margin: auto;
+      justify-content: center;
+      display: flex;
+      form{
+        .first_last_name{
+          max-width: 366px;
+          input{
+            padding-left: 10px;
+            height: 39px;
+            max-width: 153px;
+            border: 1px solid #000000;
+            border-radius: 0px;
+            &:first-of-type{
+              margin-right: 56px;
+            }
+          }
+        }
+        .email{
+          max-width: 366px;
+          margin-top: 18px;
+          input{
+            padding-left: 10px;
+            height: 39px;
+            width: 100%;
+            border: 1px solid #000000;
+            border-radius: 0px;
+          }
+        }
+      }
+    }
+    div{
+      margin-top: 16px;
+      button{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 100px;
+        padding: 9px 23px;
+      }
+    }
+  }
+}
+
+
+footer {
+  background: black;
+  padding-top: 51px;
+  padding-bottom: 16px;
+
+  .container {
+    max-width: 1064px;
+    display: flex;
+    justify-content: space-between;
+
+    .left_logo {
+      ul {
+        display: flex;
+        list-style: none;
+        margin-top: 40px;
+
+        li {
+          margin-right: 20px;
+        }
+      }
+    }
+
+    .right_list {
+      display: flex;
+    }
+
+    ul {
+      list-style: none;
+
+      &:first-of-type {
+        margin-right: 72px;
+      }
+
+      &:last-of-type {
+        margin-right: 56px;
+      }
+
+      li {
+        margin-bottom: 12px;
+
+        &:first-of-type {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 23px;
+          color: #FFFFFF;
+          margin-bottom: 36px;
+        }
+
+        a {
+          text-decoration: none;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+}

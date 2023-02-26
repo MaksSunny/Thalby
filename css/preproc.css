@@ -1,0 +1,633 @@
+header {
+  padding: 7px 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  position: absolute;
+  left: calc(50% - 40px);
+  top: 10px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+header nav li {
+  margin-right: 28px;
+}
+header nav li:last-of-type {
+  margin-right: 0;
+}
+header nav li a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1C1B1B;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+header ul li a img {
+  margin-left: 15px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1064px;
+  align-items: center;
+}
+
+.main_banner {
+  background: #F0EFEB;
+}
+.main_banner .container {
+  display: flex;
+  align-items: center;
+}
+.main_banner .container .main_banner_content h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+  margin-bottom: 42px;
+  max-width: 534px;
+}
+.main_banner .container .main_banner_content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 26px;
+}
+.main_banner .container .main_banner_content a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding: 9px 23px;
+}
+.main_banner .container .main_banner_picture {
+  position: relative;
+  left: 150px;
+  max-width: 100%;
+  max-height: 521px;
+}
+.main_banner .container .main_banner_picture img {
+  display: block;
+}
+
+.best_sellers {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 60px;
+}
+.best_sellers .container {
+  max-width: 692px;
+  margin: auto;
+}
+.best_sellers .container h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 27px;
+}
+.best_sellers .container p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 47px;
+}
+.best_sellers .container p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 88px;
+}
+.best_sellers .container h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 27px;
+}
+.best_sellers .best_sellers_cards {
+  display: flex;
+  justify-content: space-between;
+}
+.best_sellers .container {
+  max-width: 1064px;
+  margin: auto;
+}
+.best_sellers .container article {
+  max-width: 314px;
+  display: inline-block;
+}
+.best_sellers .container article img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+.best_sellers .container article .prise {
+  max-width: 155px;
+  margin: auto;
+}
+.best_sellers .container article .prise h4 {
+  margin-bottom: 17px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.best_sellers .container article .prise h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.best_sellers .container article .prise a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.best_sellers .owl-dots {
+  display: flex;
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+  justify-content: center;
+}
+.best_sellers .owl-carousel .owl-dots .owl-dot span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: purple;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.best_sellers .owl-carousel .owl-dots .owl-dot span .owl-dots .owl-dot.active span {
+  background: deeppink;
+}
+.best_sellers .owl-carousel .owl-dots .owl-dot.active span {
+  background: deeppink;
+}
+
+.people_and_society .offer {
+  background-color: rgba(204, 204, 204, 0.3);
+}
+.people_and_society .offer .content_offer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-bottom: 51px;
+  padding-top: 76px;
+}
+.people_and_society .offer .content_offer article {
+  max-width: 530px;
+}
+.people_and_society .offer .content_offer article h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.people_and_society .offer .content_offer article h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.people_and_society .offer .content_offer article p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.people_and_society .offer .content_offer .offer_card {
+  max-width: 385px;
+  width: 100%;
+  margin-right: 50px;
+}
+.people_and_society .offer .content_offer .offer_card img {
+  display: block;
+  width: 100%;
+}
+.people_and_society .second_offer {
+  background-color: rgba(204, 204, 204, 0.6);
+}
+.people_and_society .second_offer .content_offer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-bottom: 51px;
+  padding-top: 76px;
+  margin-right: 50px;
+}
+.people_and_society .second_offer .content_offer article {
+  max-width: 530px;
+  text-align: right;
+  margin-right: 50px;
+}
+.people_and_society .second_offer .content_offer article h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.people_and_society .second_offer .content_offer article h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.people_and_society .second_offer .content_offer article p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.people_and_society .second_offer .content_offer .offer_card {
+  max-width: 385px;
+  width: 100%;
+  margin-right: 0;
+}
+.people_and_society .second_offer .content_offer .offer_card img {
+  display: block;
+  width: 100%;
+}
+.people_and_society .second_offer .container {
+  max-width: 1064px;
+  margin: auto;
+}
+.people_and_society .third_offer {
+  background-color: rgba(204, 204, 204, 0.3);
+}
+.people_and_society .third_offer .content_offer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-bottom: 51px;
+  padding-top: 76px;
+}
+.people_and_society .third_offer .content_offer article {
+  max-width: 530px;
+}
+.people_and_society .third_offer .content_offer article h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.people_and_society .third_offer .content_offer article h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.people_and_society .third_offer .content_offer article p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.people_and_society .third_offer .content_offer .offer_card {
+  max-width: 385px;
+  width: 100%;
+  margin-right: 50px;
+}
+.people_and_society .third_offer .content_offer .offer_card img {
+  display: block;
+  width: 100%;
+}
+
+.guide {
+  padding-top: 190px;
+  padding-bottom: 110px;
+}
+.guide .container {
+  max-width: 1064px;
+  margin: auto;
+  justify-content: center;
+}
+.guide .container h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+.guide .container .mugs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.guide .container .mugs article {
+  margin-top: 69px;
+  width: 338px;
+}
+.guide .container .mugs article:nth-child(2) div {
+  background: #33D3BC;
+}
+.guide .container .mugs article:nth-child(3) div {
+  background: #18A5C6;
+}
+.guide .container .mugs article:nth-child(4) div {
+  background: #D38F62;
+}
+.guide .container .mugs article:nth-child(5) div {
+  background: #F94C43;
+}
+.guide .container .mugs article:last-of-type div {
+  background: #D399FF;
+}
+.guide .container .mugs article div {
+  width: 70px;
+  height: 70px;
+  background: #21F7EC;
+  border-radius: 35px;
+  margin: auto;
+  margin-bottom: 26px;
+}
+.guide .container .mugs article h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+
+.interviews {
+  background: linear-gradient(#FFFFFF 50%, #F0F0F0 50%);
+  padding-bottom: 52px;
+}
+.interviews .container h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 102px;
+}
+.interviews .container .guides {
+  display: flex;
+  justify-content: space-between;
+}
+.interviews .container .guides article {
+  max-width: 288px;
+}
+.interviews .container .guides article .photo_guides {
+  margin-bottom: 35px;
+  width: 100%;
+}
+.interviews .container .guides article .photo_guides img {
+  display: block;
+}
+.interviews .container .guides article div {
+  margin: auto;
+  justify-content: center;
+}
+.interviews .container .guides article div h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #000000;
+  margin-bottom: 34px;
+}
+.interviews .container .guides article div h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 44px;
+}
+.interviews .container .guides article div p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.interviews .container .guides article div p a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.keep_in_touch {
+  padding-bottom: 88px;
+  padding-top: 79px;
+}
+.keep_in_touch .container {
+  max-width: 570px;
+  margin: auto;
+  justify-content: center;
+}
+.keep_in_touch .container h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.keep_in_touch .container h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 26px;
+}
+.keep_in_touch .container div {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.keep_in_touch .container div form .first_last_name {
+  max-width: 366px;
+}
+.keep_in_touch .container div form .first_last_name input {
+  padding-left: 10px;
+  height: 39px;
+  max-width: 153px;
+  border: 1px solid #000000;
+  border-radius: 0px;
+}
+.keep_in_touch .container div form .first_last_name input:first-of-type {
+  margin-right: 56px;
+}
+.keep_in_touch .container div form .email {
+  max-width: 366px;
+  margin-top: 18px;
+}
+.keep_in_touch .container div form .email input {
+  padding-left: 10px;
+  height: 39px;
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 0px;
+}
+.keep_in_touch .container div {
+  margin-top: 16px;
+}
+.keep_in_touch .container div button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding: 9px 23px;
+}
+
+footer {
+  background: black;
+  padding-top: 51px;
+  padding-bottom: 16px;
+}
+footer .container {
+  max-width: 1064px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .left_logo ul {
+  display: flex;
+  list-style: none;
+  margin-top: 40px;
+}
+footer .container .left_logo ul li {
+  margin-right: 20px;
+}
+footer .container .right_list {
+  display: flex;
+}
+footer .container ul {
+  list-style: none;
+}
+footer .container ul:first-of-type {
+  margin-right: 72px;
+}
+footer .container ul:last-of-type {
+  margin-right: 56px;
+}
+footer .container ul li {
+  margin-bottom: 12px;
+}
+footer .container ul li:first-of-type {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+footer .container ul li a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=preproc.css.map */

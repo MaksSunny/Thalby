@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/menu_mobile.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/preproc.css">
 
 
 </head>
@@ -145,24 +146,28 @@
 
 
     <section class="people_and_society">
-        <div class="content_offer container">
-            <div class="offer_card">
-                <img src="imajes/card1(2)of3.png" alt="card1(2)">
+        <div class="offer">
+            <div class="content_offer container">
+                <div class="offer_card">
+                    <img src="imajes/card1(2)of3.png" alt="card1(2)">
+                </div>
+                <article>
+                    <h3>People and Society</h3>
+                    <h5>Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.</h5>
+                    <p>Shop Society Guides</p>
+                </article>
             </div>
-            <article>
-                <h3>People and Society</h3>
-                <h5>Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.</h5>
-                <p>Shop Society Guides</p>
-            </article>
         </div>
-        <div class="content_offer container">
-            <article>
-                <h3>Culture and Heritage</h3>
-                <h5>As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture.</h5>
-                <p>Shop Culture Guides</p>
-            </article>
-            <div class="offer_card">
-                <img src="imajes/card2(2)of3.png" alt="card2(2)">
+        <div class="second_offer">
+            <div class="content_offer container">
+                <article>
+                    <h3>Culture and Heritage</h3>
+                    <h5>As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture.</h5>
+                    <p>Shop Culture Guides</p>
+                </article>
+                <div class="offer_card">
+                    <img src="imajes/card2(2)of3.png" alt="card2(2)">
+                </div>
             </div>
         </div>
         <div class="third_offer">
@@ -178,24 +183,98 @@
             </div>
         </div>
     </section>
+    <section class="guide">
+        <div class="container">
+            <h5>Some of the features that <br> make Thalby guides unique</h5>
+            <div class="mugs">
+                <article>
+                    <div class="mugs_color"></div>
+                    <h6>Written by<br>locals</h6>
+                </article>
+                <article>
+                    <div class="mugs_color2"></div>
+                    <h6>Packed with<br>insight</h6>
+                </article>
+                <article>
+                    <div class="mugs_color3"></div>
+                    <h6>Interviews with<br>diverse voices</h6>
+                </article>
+                <article>
+                    <div class="mugs_color4"></div>
+                    <h6>Key facts and<br>etiquette tips</h6>
+                </article>
+                <article>
+                    <div class="mugs_color5"></div>
+                    <h6>A concise<br>1-hour read</h6>
+                </article>
+                <article>
+                    <div class="mugs_color6"></div>
+                    <h6>Instant<br>digital access</h6>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="interviews">
+        <div class="container">
+            <h4>Each Thalby guide includes interviews with<br>a range of fascinating voices, such as</h4>
+            <div class="guides">
+                <article>
+                    <div class="photo_guides">
+                        <img src="imajes/camille.png" alt="Camille">
+                    </div>
+                    <div>
+                        <h5>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</h5>
+                        <h6>Camille Muller, Landscape Designer, France</h6>
+                        <p><a href="#">Discover</a></p>
+                    </div>
+                </article>
+                <article>
+                    <div class="photo_guides">
+                        <img src="imajes/sonia.png" alt="Sonia">
+                    </div>
+                    <div>
+                        <h5>"Magic is not magic in the sense that I can just wish for anything."</h5>
+                        <h6>Sonia Kowalewski, Witch, Germany</h6>
+                        <p><a href="#">Discover</a></p>
+                    </div>
+                </article>
+                <article>
+                    <div class="photo_guides">
+                        <img src="imajes/lilly.png" alt="Lilly">
+                    </div>
+                    <div>
+                        <h5>"I was eight years old when I entered my first competition. I won it."</h5>
+                        <h6>Lilly Stoephasius, Skateboarder, Germany</h6>
+                        <p><a href="#">Discover</a></p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
 
 
 
 
 
-<section>
-    <div>
+
+    <section class="keep_in_touch">
+    <div class="container">
         <h4>Keep in touch</h4>
         <h5>Get our travel advice, global views and travel freebies in your inbox</h5>
         <div>
             <form name="subscribe" action="#" method="post">
-                <input name="First Name" type="text" placeholder="First Name">
-
+                <div class="first_last_name">
+                    <input name="First Name" type="text" placeholder="First Name">
+                    <input name="Last Name" type="text" placeholder="Last Name">
+                </div>
+                <div class="email">
+                    <input name="email" type="text" placeholder="Email">
+                </div>
             </form>
-
         </div>
-
-
+        <div>
+            <button type="submit">Subscribe</button>
+        </div>
     </div>
 </section>
 </main>
