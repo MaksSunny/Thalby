@@ -5,21 +5,16 @@ $gray_background: #F0EFEB;
 
 header{
   padding: 7px 0;
+  height: 50px;
   .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .logo{
-    position: absolute;
-    left: calc(50% - 40px);
-    top: 10px;
-  }
-  nav{
-    ul{
-      list-style: none;
-      display: flex;
-      align-items: center;
+    nav{
+      ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
       }
       li{
         margin-right: 28px;
@@ -37,24 +32,28 @@ header{
         }
       }
     }
-  ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    li{
-      a{
-        img{
-          margin-left: 15px;
+    ul{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      li{
+        a{
+          img{
+            margin-left: 15px;
+          }
         }
       }
     }
+
+    .logo{
+      position: absolute;
+      left: calc(50% - 40px);
+      top: 10px;
+    }
   }
+
   }
-.container{
-  margin: auto;
-  max-width: 1064px;
-  align-items: center;
-}
+
 
 //main_banner
 
@@ -99,7 +98,7 @@ header{
     }
     .main_banner_picture{
       position: relative;
-      left: 150px;
+      right: -150px;
       max-width: 100%;
       max-height: 521px;
       img{

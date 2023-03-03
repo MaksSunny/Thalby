@@ -1,37 +1,12 @@
 @media only screen and (max-width: 1365px){
-    .main_banner_picture{
-        position: relative;
-        left: -10px;
-        max-height: none;
-        max-width: none;
+    .main_banner .container .main_banner_picture{
+        right: 0px;
     }
 }
-@media only screen and (max-width: 1131px){
-    .main_banner .container{
-        display: block;
+@media only screen and (max-width: 996px){
+    header .container{
+        align-items: start;
     }
-    .main_banner_picture{
-        margin-top: 30px;
-        left: 0;
-    }
-}
-
-@media only screen and (max-width: 855px){
-    .content_offer{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .content_offer img{
-        margin: 15px 0;
-    }
-    .offer_card{
-        margin-right: 0;
-    }
-
-}
-
-
-@media only screen and (max-width: 809px){
 
     header nav ul li{
         margin-right: 0;
@@ -57,12 +32,12 @@
         position: absolute;
         z-index: 2;
         border-radius: 5%;
+        top: 0;
     }
 
     nav .menu-btn {
         position: fixed;
-        top: 10%;
-        right: 15%;
+        right: 15px;
         padding: 0;
         width: 30px;
         cursor: pointer;
@@ -148,14 +123,52 @@
 
 
 }
+@media only screen and (max-width: 900px){
+    .main_banner .container{
+        display: block;
+    }
+    .main_banner_picture{
+        margin-top: 30px;
+        
+    }
+}
+
+@media only screen and (max-width: 855px){
+    .content_offer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content_offer img{
+        margin: 15px 0;
+    }
+    .offer_card{
+        margin-right: 0;
+    }
+
+}
+
+
+
 
 @media only screen and (max-width: 570px){
     .logo{
         display: none;
     }
 }
-
+@media only screen and (max-width: 505px){
+    header nav{
+        transform: translateX(-250px);
+    }
+}
+@media only screen and (max-width: 460px){
+    header nav{
+        transform: translateX(-200px);
+    }
+}
 @media only screen and (max-width: 427px){
+    header nav{
+        width: 350px;
+    }
     footer .right_list ul:first-of-type{
         margin-right: 20px;
     }
@@ -163,9 +176,33 @@
         margin-right: 10px;
     }
 }
+@media only screen and (max-width: 407px){
+    header nav{
+        transform: translateX(-150px);
+    }
+}
+@media only screen and (max-width: 375px){
+    header nav{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 360px){
+    header nav{
+        transform: translateX(-100px);
+    }
+}
 @media only screen and (max-width: 332px){
+    header nav{
+        width: 280px;
+    }
     footer .container{
         flex-direction: column;
         justify-content: center;
+    }
+}
+@media only screen and (max-width: 310px){
+    header nav{
+        transform: translateX(-50px);
+        width: 250px;
     }
 }
