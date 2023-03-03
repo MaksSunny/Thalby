@@ -8,13 +8,16 @@
         width: 550px;
     }
 }
-@media only screen and (max-width: 1099px){
+@media only screen and (max-width: 1050px){
     .main_banner .container{
         display: block;
     }
     .main_banner_picture{
-        margin-top: 30px;
-
+        display: flex;
+        margin: auto;
+    }
+    .main_banner .main_banner_picture img{
+        margin-top: 10px;
     }
 }
 @media only screen and (max-width: 996px){
@@ -153,11 +156,18 @@
 
 }
 
-
+@media only screen and (max-width: 780px){
+    .main_banner{
+        padding-bottom: 30px;
+    }
+    .main_banner .container .main_banner_picture{
+        display: none;
+    }
+}
 
 
 @media only screen and (max-width: 570px){
-    .logo{
+    header .logo{
         display: none;
     }
 }
@@ -175,6 +185,9 @@
     header nav{
         width: 350px;
     }
+    footer .container{
+        display: block;
+    }
     footer .right_list ul:first-of-type{
         margin-right: 20px;
     }
@@ -190,6 +203,21 @@
 @media only screen and (max-width: 375px){
     header nav{
         width: 300px;
+    }
+    .main_banner .container .main_banner_content h1{
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .people_and_society .content_offer article h3{
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .people_and_society .content_offer article h5{
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .keep_in_touch .container div form .first_last_name input{
+        max-width: 92px;
     }
 }
 @media only screen and (max-width: 360px){

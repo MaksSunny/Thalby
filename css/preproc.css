@@ -79,6 +79,7 @@ header .container .logo {
   border: 1px solid #000000;
   border-radius: 100px;
   padding: 9px 23px;
+  margin-bottom: 50px;
 }
 .main_banner .container .main_banner_picture {
   position: relative;
@@ -192,6 +193,7 @@ header .container .logo {
   bottom: -40px;
   width: 100%;
   justify-content: center;
+  left: 0;
 }
 .best_sellers .owl-carousel .owl-dots .owl-dot span {
   display: inline-block;
@@ -211,17 +213,22 @@ header .container .logo {
 .people_and_society .offer {
   background-color: rgba(204, 204, 204, 0.3);
 }
-.people_and_society .offer .content_offer {
+.people_and_society .container {
+  max-width: 1064px;
+  margin: auto;
+}
+.people_and_society .content_offer {
   display: flex;
   justify-content: left;
   align-items: center;
   padding-bottom: 51px;
   padding-top: 76px;
 }
-.people_and_society .offer .content_offer article {
+.people_and_society .content_offer article {
   max-width: 530px;
+  margin-left: 50px;
 }
-.people_and_society .offer .content_offer article h3 {
+.people_and_society .content_offer article h3 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -230,7 +237,7 @@ header .container .logo {
   color: #000000;
   margin-bottom: 31px;
 }
-.people_and_society .offer .content_offer article h5 {
+.people_and_society .content_offer article h5 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -239,7 +246,7 @@ header .container .logo {
   color: #000000;
   margin-bottom: 40px;
 }
-.people_and_society .offer .content_offer article p {
+.people_and_society .content_offer article p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -248,66 +255,21 @@ header .container .logo {
   text-decoration-line: underline;
   color: #000000;
 }
-.people_and_society .offer .content_offer .offer_card {
+.people_and_society .content_offer .offer_card {
   max-width: 385px;
   width: 100%;
-  margin-right: 50px;
 }
-.people_and_society .offer .content_offer .offer_card img {
+.people_and_society .content_offer .offer_card img {
   display: block;
   width: 100%;
 }
 .people_and_society .second_offer {
   background-color: rgba(204, 204, 204, 0.6);
 }
-.people_and_society .second_offer .content_offer {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  padding-bottom: 51px;
-  padding-top: 76px;
-  margin-right: 50px;
-}
 .people_and_society .second_offer .content_offer article {
   max-width: 530px;
   text-align: right;
   margin-right: 50px;
-}
-.people_and_society .second_offer .content_offer article h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-  margin-bottom: 31px;
-}
-.people_and_society .second_offer .content_offer article h5 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-  margin-bottom: 40px;
-}
-.people_and_society .second_offer .content_offer article p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 20px;
-  text-decoration-line: underline;
-  color: #000000;
-}
-.people_and_society .second_offer .content_offer .offer_card {
-  max-width: 385px;
-  width: 100%;
-  margin-right: 0;
-}
-.people_and_society .second_offer .content_offer .offer_card img {
-  display: block;
-  width: 100%;
 }
 .people_and_society .second_offer .container {
   max-width: 1064px;
@@ -315,52 +277,6 @@ header .container .logo {
 }
 .people_and_society .third_offer {
   background-color: rgba(204, 204, 204, 0.3);
-}
-.people_and_society .third_offer .content_offer {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  padding-bottom: 51px;
-  padding-top: 76px;
-}
-.people_and_society .third_offer .content_offer article {
-  max-width: 530px;
-}
-.people_and_society .third_offer .content_offer article h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-  margin-bottom: 31px;
-}
-.people_and_society .third_offer .content_offer article h5 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-  margin-bottom: 40px;
-}
-.people_and_society .third_offer .content_offer article p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 20px;
-  text-decoration-line: underline;
-  color: #000000;
-}
-.people_and_society .third_offer .content_offer .offer_card {
-  max-width: 385px;
-  width: 100%;
-  margin-right: 50px;
-}
-.people_and_society .third_offer .content_offer .offer_card img {
-  display: block;
-  width: 100%;
 }
 
 .guide {
@@ -449,6 +365,7 @@ header .container .logo {
 }
 .interviews .container .guides article .photo_guides img {
   display: block;
+  width: 100%;
 }
 .interviews .container .guides article div {
   margin: auto;

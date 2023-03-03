@@ -94,6 +94,7 @@ header{
         border: 1px solid #000000;
         border-radius: 100px;
         padding: 9px 23px;
+        margin-bottom: 50px;
       }
     }
     .main_banner_picture{
@@ -211,6 +212,7 @@ header{
     bottom: -40px;
     width: 100%;
     justify-content: center;
+    left: 0;
   }
   .owl-carousel{
     .owl-dots .owl-dot span{
@@ -237,102 +239,64 @@ header{
 .people_and_society{
   .offer{
     background-color: rgba(204, 204, 204, 0.3);
-    .content_offer{
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      padding-bottom: 51px;
-      padding-top: 76px;
-      article{
-        max-width: 530px;
-        h3{
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 36px;
-          line-height: 42px;
-          color: #000000;
-          margin-bottom: 31px;
-        }
-        h5{
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 36px;
-          line-height: 42px;
-          color: #000000;
-          margin-bottom: 40px;
-        }
-        p{
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 17px;
-          line-height: 20px;
-          text-decoration-line: underline;
-          color: #000000;
-        }
+  }
+  .container{
+    max-width: 1064px;
+    margin: auto;
+  }
+  .content_offer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 51px;
+    padding-top: 76px;
+    article{
+      max-width: 530px;
+      margin-left: 50px;
+      h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        margin-bottom: 31px;
       }
-      .offer_card{
-        max-width: 385px;
+      h5{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        margin-bottom: 40px;
+      }
+      p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 20px;
+        text-decoration-line: underline;
+        color: #000000;
+      }
+    }
+    .offer_card{
+      max-width: 385px;
+      width: 100%;
+      img{
+        display: block;
         width: 100%;
-        margin-right: 50px;
-        img{
-          display: block;
-          width: 100%;
-        }
       }
     }
   }
   .second_offer{
     background-color: rgba(204, 204, 204, 0.6);
     .content_offer{
-      display: flex;
-      justify-content: right;
-      align-items: center;
-      padding-bottom: 51px;
-      padding-top: 76px;
-      margin-right: 50px;
       article{
         max-width: 530px;
         text-align: right;
         margin-right: 50px;
-        h3{
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 36px;
-          line-height: 42px;
-          color: #000000;
-          margin-bottom: 31px;
-        }
-        h5{
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 36px;
-          line-height: 42px;
-          color: #000000;
-          margin-bottom: 40px;
-        }
-        p{
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 17px;
-          line-height: 20px;
-          text-decoration-line: underline;
-          color: #000000;
-        }
-      }
-      .offer_card{
-        max-width: 385px;
-        width: 100%;
-        margin-right: 0;
-        img{
-          display: block;
-          width: 100%;
-        }
       }
     }
     .container{
@@ -342,52 +306,6 @@ header{
   }
   .third_offer{
     background-color: rgba(204, 204, 204, 0.3);
-    .content_offer{
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      padding-bottom: 51px;
-      padding-top: 76px;
-      article{
-        max-width: 530px;
-        h3{
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 36px;
-          line-height: 42px;
-          color: #000000;
-          margin-bottom: 31px;
-        }
-        h5{
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 36px;
-          line-height: 42px;
-          color: #000000;
-          margin-bottom: 40px;
-        }
-        p{
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 17px;
-          line-height: 20px;
-          text-decoration-line: underline;
-          color: #000000;
-        }
-      }
-      .offer_card{
-        max-width: 385px;
-        width: 100%;
-        margin-right: 50px;
-        img{
-          display: block;
-          width: 100%;
-        }
-      }
-    }
   }
 }
 //Guide
@@ -476,6 +394,7 @@ header{
           width: 100%;
           img{
             display: block;
+            width: 100%;
           }
         }
         div{
